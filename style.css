@@ -586,7 +586,7 @@ nav li {
 /* footer section------------ */
 /* Footer Styles */
 footer {
-    background-color: #8c6111;
+    background-color: #65512c;
     color: white;
     padding: 40px 0;
   }
@@ -610,7 +610,17 @@ footer {
   }
 
   .footer-logo a{
+    text-decoration: none;
+  }
+
+  .footer-logo h5{
+    color: var(--primary-website-color);
+    font-size: 18px;
+  }
+
+  .footer-logo p{
     color: white;
+    font-size: 12px;
   }
   
   .footer-links ul {
@@ -646,5 +656,10 @@ footer {
   
   .footer-contact a:hover {
     color: var(--secondry-website-color);
+  }
+
+  .developer-credit{
+    font-size: 12px;
+    padding-top: 15px;
   }
   
