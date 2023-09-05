@@ -195,7 +195,7 @@ nav i {
 
 .logo img {
     /* height: 64px; */
-    width: 66px;
+    width: 50px;
     height: 100%;
     overflow: hidden;
     /* background-color: var(--primary-accent-color); */
@@ -206,6 +206,7 @@ nav i {
     font-weight: 700;
     font-size: 20px;
     font-family: 'Pathway Extreme', sans-serif;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -376,6 +377,7 @@ nav li {
     flex-wrap: wrap;
     gap: 94px;
     justify-content: space-between;
+    padding-bottom: 84px;
 }
 
 .service-card {
@@ -436,7 +438,7 @@ nav li {
     padding-top: 20px;
 }
 
-.pricing p{
+.pricing p {
     margin-bottom: 64px;
 
 }
@@ -494,7 +496,15 @@ nav li {
     cursor: pointer;
 }
 
-/* Carousel Section ----------------------------------- */
+/* Inventry Carousel Section ----------------------------------- */
+.inventory {
+    padding-top: 84px;
+    padding-bottom: 20px
+    ;
+    height: auto;
+    margin-bottom: 1px;
+}
+
 .inventory-header {
     color: black;
 }
@@ -502,9 +512,11 @@ nav li {
 
 .carousel {
     position: relative;
+    /* padding-block: 84px; */
     width: auto;
-    height: 100%;
+    height: 480px;
     margin: 0 auto;
+    margin-bottom: 50px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -540,3 +552,99 @@ nav li {
 .carousel-arrow.right {
     right: 10px;
 }
+
+/* About section ----------------- */
+#about{
+    margin-bottom: 30px;
+}
+
+.about-section {
+    /* padding-bottom: 500px; */
+    flex-direction: column;
+}
+
+.about-photo {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-photo img {
+    max-width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.235);
+    transition: 0.5s box-shadow ease-in-out;
+}
+
+.about-photo img:hover {
+    box-shadow: 0 5px 60px #fd7200b1;
+}
+
+/* footer section------------ */
+/* Footer Styles */
+footer {
+    background-color: #8c6111;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .footer-logo img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .footer-logo a{
+    color: white;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: var(--secondry-website-color);
+  }
+  
+  .footer-contact p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-contact a:hover {
+    color: var(--secondry-website-color);
+  }
+  
