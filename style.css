@@ -583,10 +583,40 @@ nav li {
     box-shadow: 0 5px 60px #fd7200b1;
 }
 
+/* Book-now section */
+
+
+.book-now-header {
+    color: black;
+    margin-top: 64px;
+}
+
+.book-label {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    /* margin-top: 48px; */
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+
+.book-label::before,
+.book-label::after {
+    content: "";
+    display: inline-block;
+    width: 34px;
+    height: 2px;
+    background: var(--secondry-website-color);
+    vertical-align: middle;
+}
+
 /* footer section------------ */
 /* Footer Styles */
 footer {
-    background-color: #65512c;
+    background-color: #fceed1;
     color: white;
     padding: 40px 0;
   }
@@ -619,7 +649,7 @@ footer {
   }
 
   .footer-logo p{
-    color: white;
+    color: rgb(81, 80, 80);
     font-size: 12px;
   }
   
@@ -631,7 +661,7 @@ footer {
   
   .footer-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(81, 80, 80);
     font-weight: 600;
     transition: color 0.3s ease;
   }
@@ -644,12 +674,12 @@ footer {
     margin: 0;
     font-weight: 400;
     font-size: 14px;
-    color: white;
+    color: rgb(81, 80, 80);
   }
   
   .footer-contact a {
     text-decoration: none;
-    color: white;
+    color: rgb(81, 80, 80);
     font-weight: 600;
     transition: color 0.3s ease;
   }
