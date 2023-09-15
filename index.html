@@ -42,7 +42,7 @@
             <li><a class="hover-link" href="#pricing">Pricing</a></li>
             <li><a class="hover-link" href="#inventory">Inventory</a></li>
             <li><a class="hover-link" href="#about">About</a></li>
-            <li><a class="hover-link contactus-btn" href="" target="_blank">Book
+            <li><a class="hover-link contactus-btn" href="#book-now">Book
                 Now</a></li>
           </ul>
         </div>
@@ -68,7 +68,7 @@
         and scooter rental services that empower individuals to experience life to the fullest.</p>
 
       <div>
-        <a class="hover-link contactus-btn" href="" target="_blank"><span>Book
+        <a class="hover-link contactus-btn" href="#book-now"><span>Book
             Now</span></a>
       </div>
     </div>
@@ -265,16 +265,16 @@
     </div>
   </section>
 
-  <section id="book-now screen-height">
+  <section id="book-now" class="book-now">
     <div class="book-now-header book-label">
       Book a Meeting
     </div>
-    <!-- Calendly inline widget begin -->
-    <div class="calendly-inline-widget"
-      data-url="https://calendly.com/keepingyourolling?background_color=fdfaf6&primary_color=ffa500"
-      style="min-width:320px;height:700px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <!-- Calendly inline widget end -->
+    <div class="calendly">
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/keepingyourolling/30min?primary_color=ff8c00"
+        style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
   </section>
 
   <footer>
@@ -391,49 +391,6 @@
     }
   </script>
 
-  <!-- 
-  <script>
-    //Carousel -----------------------
-    const carousel = document.querySelector('.carousel');
-    const images = carousel.querySelectorAll('img');
-    const leftArrow = carousel.querySelector('.carousel-arrow.left');
-    const rightArrow = carousel.querySelector('.carousel-arrow.right');
-    let currentIndex = 0;
-
-    // Function to show the current image
-    function showImage(index) {
-      images.forEach((image, i) => {
-        if (i === index) {
-          image.style.display = 'block';
-        } else {
-          image.style.display = 'none';
-        }
-      });
-    }
-
-    // Function to navigate to the next image
-    function nextImage() {
-      currentIndex = (currentIndex + 1) % images.length;
-      showImage(currentIndex);
-    }
-
-    // Function to navigate to the previous image
-    function prevImage() {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-      showImage(currentIndex);
-    }
-
-    // Add event listeners to the arrows
-    leftArrow.addEventListener('click', prevImage);
-    rightArrow.addEventListener('click', nextImage);
-
-    // Automatically change the image every 5 seconds
-    setInterval(nextImage, 5000);
-
-    // Show the initial image
-    showImage(currentIndex);
-  </script> -->
-
   <script>
     //Inventry  Caraousal code 
     document.addEventListener('DOMContentLoaded', function () {
@@ -491,6 +448,49 @@
       showImage(currentIndex);
     });
   </script>
+
+  <!-- 
+  <script>
+    //Carousel -----------------------
+    const carousel = document.querySelector('.carousel');
+    const images = carousel.querySelectorAll('img');
+    const leftArrow = carousel.querySelector('.carousel-arrow.left');
+    const rightArrow = carousel.querySelector('.carousel-arrow.right');
+    let currentIndex = 0;
+
+    // Function to show the current image
+    function showImage(index) {
+      images.forEach((image, i) => {
+        if (i === index) {
+          image.style.display = 'block';
+        } else {
+          image.style.display = 'none';
+        }
+      });
+    }
+
+    // Function to navigate to the next image
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+
+    // Function to navigate to the previous image
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+
+    // Add event listeners to the arrows
+    leftArrow.addEventListener('click', prevImage);
+    rightArrow.addEventListener('click', nextImage);
+
+    // Automatically change the image every 5 seconds
+    setInterval(nextImage, 5000);
+
+    // Show the initial image
+    showImage(currentIndex);
+  </script> -->
 
 </body>
 

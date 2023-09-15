@@ -499,8 +499,7 @@ nav li {
 /* Inventry Carousel Section ----------------------------------- */
 .inventory {
     padding-top: 84px;
-    padding-bottom: 20px
-    ;
+    padding-bottom: 20px;
     height: auto;
     margin-bottom: 1px;
 }
@@ -554,7 +553,7 @@ nav li {
 }
 
 /* About section ----------------- */
-#about{
+#about {
     margin-bottom: 30px;
 }
 
@@ -584,11 +583,15 @@ nav li {
 }
 
 /* Book-now section */
-
+.book-now{
+    padding-block: 32px;
+}
 
 .book-now-header {
     color: black;
     margin-top: 64px;
+    /* position: absolute; */
+    /* left:  50%; */
 }
 
 .book-label {
@@ -598,7 +601,7 @@ nav li {
     text-transform: uppercase;
     text-align: center;
     /* margin-top: 48px; */
-    margin-bottom: 60px;
+    margin-bottom: -30px;
     padding-top: 20px;
 }
 
@@ -619,77 +622,77 @@ footer {
     background-color: #fceed1;
     color: white;
     padding: 40px 0;
-  }
-  
-  .footer-content {
+}
+
+.footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .footer-logo {
+}
+
+.footer-logo {
     display: flex;
     align-items: center;
-  }
+}
 
-  
-  .footer-logo img {
-    width: 50px; /* Adjust the size as needed */
+
+.footer-logo img {
+    width: 50px;
+    /* Adjust the size as needed */
     height: auto;
     margin-right: 10px;
-  }
+}
 
-  .footer-logo a{
+.footer-logo a {
     text-decoration: none;
-  }
+}
 
-  .footer-logo h5{
+.footer-logo h5 {
     color: var(--primary-website-color);
     font-size: 18px;
-  }
+}
 
-  .footer-logo p{
+.footer-logo p {
     color: rgb(81, 80, 80);
     font-size: 12px;
-  }
-  
-  .footer-links ul {
+}
+
+.footer-links ul {
     list-style: none;
     display: flex;
     gap: 20px;
-  }
-  
-  .footer-links a {
+}
+
+.footer-links a {
     text-decoration: none;
     color: rgb(81, 80, 80);
     font-weight: 600;
     transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
+}
+
+.footer-links a:hover {
     color: var(--secondry-website-color);
-  }
-  
-  .footer-contact p {
+}
+
+.footer-contact p {
     margin: 0;
     font-weight: 400;
     font-size: 14px;
     color: rgb(81, 80, 80);
-  }
-  
-  .footer-contact a {
+}
+
+.footer-contact a {
     text-decoration: none;
     color: rgb(81, 80, 80);
     font-weight: 600;
     transition: color 0.3s ease;
-  }
-  
-  .footer-contact a:hover {
-    color: var(--secondry-website-color);
-  }
+}
 
-  .developer-credit{
+.footer-contact a:hover {
+    color: var(--secondry-website-color);
+}
+
+.developer-credit {
     font-size: 12px;
     padding-top: 15px;
-  }
-  
+}
